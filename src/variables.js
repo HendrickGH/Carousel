@@ -1,0 +1,9 @@
+export const pagination = [...document.querySelectorAll('.dot')];
+export const btns = [...document.querySelectorAll('.btn')];
+export const dotitem = [...document.querySelectorAll('.dot')];
+export const dots = document.querySelector('.dots');
+export const filldot = 'dot-fill';
+export const carousel = document.querySelector('.carousel');
+export const author = document.querySelector('.testimonial-author');
+export const testimonial = document.querySelector('.testimonial-text');
+export const backendURL = `http://localhost:5000/data.json`;
