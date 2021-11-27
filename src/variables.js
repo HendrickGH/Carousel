@@ -6,4 +6,4 @@ export const filldot = 'dot-fill';
 export const carousel = document.querySelector('.carousel');
 export const author = document.querySelector('.testimonial-author');
 export const testimonial = document.querySelector('.testimonial-text');
-export const backendURL = `https://hendrickgh.github.io/Carousel/data.json`;
+export const backendURL = `http://localhost:5000/data.json`;

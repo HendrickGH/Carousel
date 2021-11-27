@@ -9,12 +9,9 @@ import {
 } from './variables.js';
 export const setView = btns => {
 	btns.forEach(btn => {
-		const btnSide = btn.classList.contains('btn--right');
+		const btnSide = btn.classList.contains('btn--right') && 'right';
 		btn.addEventListener('click', () =>
-			setState(
-				changeBtn(dotitem, btnSide && 'right'),
-				changePage(backendURL, btnSide && 'right')
-			)
+			setState(changeBtn(dotitem, btnSide), changePage(backendURL, btnSide))
 		);
 	});
 };
